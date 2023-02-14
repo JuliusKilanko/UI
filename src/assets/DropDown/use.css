@@ -1,0 +1,31 @@
+.Users{
+    position: absolute;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    padding-left: 0;
+    width: 200px;
+    top: 50px;
+    right: 0;
+    padding: 20px 30px;
+    right: 0;
+    color: black;
+    border-radius: 12px;
+    z-index: 1000;
+  }
+  .Users.active{
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+      transition: 0.5s ease;
+  }
+  .Users.inactive{
+      opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: 0.3s ease;
+  }
+  .Users ul li{
+      padding: 10px  0;
+      border-top: 1px solid rgba(253, 253, 253, 0.05);
+    }

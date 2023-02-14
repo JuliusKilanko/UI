@@ -1,0 +1,286 @@
+
+.top{
+  position: fixed;
+  top: 62px;
+  width: 100%;
+  transition: 0.5s all ease;
+}
+.dropdown-menu{
+  position: absolute;
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  padding: 10px 20px;
+  padding-left: 0;
+  width: 400px;
+  top: 50px;
+  left: 0;
+  padding: 20px 30px;
+  right: 0;
+  color: black;
+}
+
+
+.dropdown-menu.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: 0.5s ease;
+}
+.dropdown-menu.inactive{
+    opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 0.3s ease;
+}
+.dropdown-menu ul li{
+    padding: 10px  0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  .dropdown-Digi{
+    position: absolute;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    padding-left: 0;
+    width: 400px;
+    top: 50px;
+    left: 0;
+    padding: 20px 30px;
+    right: 0;
+    color: black;
+}
+
+
+.dropdown-Digi.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: 0.5s ease;
+}
+.dropdown-Digi.inactive{
+    opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 0.3s ease;
+}
+.dropdown-Digi ul li{
+    padding: 10px  0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  .dropdown-Write{
+    position: absolute;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    padding-left: 0;
+    width: 400px;
+    top: 50px;
+    left: 0;
+    padding: 20px 30px;
+    right: 0;
+    color: black;
+}
+
+
+.dropdown-Write.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: 0.5s ease;
+}
+.dropdown-Write.inactive{
+    opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 0.3s ease;
+}
+.dropdown-Write ul li{
+    padding: 10px  0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  .dropdown-Video{
+    position: absolute;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    padding-left: 0;
+    width: 400px;
+    top: 50px;
+    left: 0;
+    padding: 20px 30px;
+    right: 0;
+    color: black;
+}
+
+
+.dropdown-Video.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: 0.5s ease;
+}
+.dropdown-Video.inactive{
+    opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 0.3s ease;
+}
+.dropdown-Video ul li{
+    padding: 10px  0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  .dropdown-Music{
+    position: absolute;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    padding-left: 0;
+    width: 400px;
+    top: 50px;
+    left: 0;
+    padding: 20px 30px;
+    right: 0;
+    color: black;
+}
+
+
+.dropdown-Music.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: 0.5s ease;
+}
+.dropdown-Music.inactive{
+    opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 0.3s ease;
+}
+.dropdown-Music ul li{
+    padding: 10px  0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  .dropdown-Tech{
+    position: absolute;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    padding-left: 0;
+    width: 400px;
+    top: 50px;
+    left: 0;
+    padding: 20px 30px;
+    right: 0;
+    color: black;
+}
+
+
+.dropdown-Tech.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: 0.5s ease;
+}
+.dropdown-Tech.inactive{
+    opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 0.3s ease;
+}
+.dropdown-Tech ul li{
+    padding: 10px  0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  .dropdown-Buz{
+    position: absolute;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    padding-left: 0;
+    width: 400px;
+    top: 50px;
+    right: 0;
+    padding: 20px 30px;
+    right: 0;
+    color: black;
+}
+
+
+.dropdown-Buz.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: 0.5s ease;
+}
+.dropdown-Buz.inactive{
+    opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 0.3s ease;
+}
+.dropdown-Buz ul li{
+    padding: 10px  0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  .dropdown-Life{
+    position: absolute;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    padding-left: 0;
+    width: 400px;
+    top: 50px;
+    right: 0;
+    padding: 20px 30px;
+    right: 0;
+    color: black;
+}
+
+
+.dropdown-Life.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: 0.5s ease;
+}
+.dropdown-Life.inactive{
+    opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 0.3s ease;
+}
+.dropdown-Life ul li{
+    padding: 10px  0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  .dropdown-Ai{
+    position: absolute;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    padding-left: 0;
+    width: 400px;
+    top: 50px;
+    right: 0;
+    padding: 20px 30px;
+    right: 0;
+    color: black;
+}
+
+
+.dropdown-Ai.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: 0.5s ease;
+}
+.dropdown-Ai.inactive{
+    opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 0.3s ease;
+}
+.dropdown-Ai ul li{
+    padding: 10px  0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
